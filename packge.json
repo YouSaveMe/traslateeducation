@@ -1,0 +1,14 @@
+{
+  "name": "translation-proxy-server",
+  "version": "1.0.0",
+  "description": "Proxy server for translating text using OpenAI's API.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "dotenv": "^8.2.0"
+  }
+}
